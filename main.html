@@ -15,12 +15,12 @@
         <br>
 
         <label for="email">Email*</label>
-        <input type="email" name="Mail" id="email">
+        <input type="email" name="Mail" id="email" required>
         <br>
         <br>
 
         <span>Gender*</span>
-        <input type="radio" id="male"  name="gender" value="Male">  
+        <input type="radio" id="male"  name="gender" value="Male" required>  
         <label for="male">Male</label>
 
         <input type="radio" id="female" name="gender" value="Female" >  
@@ -41,26 +41,27 @@
         <br>
 
         <label for="age">Age*</label>
-        <input type="number" name="Age" id="age" min="1" max="50">
+        <input type="number" name="Age" id="age" min="1" max="50" required>
         <br>
         <br>
 
         <label for="dob">DOB*</label>
-        <input type="date" name="Date" id="dob">
+        <input type="date" name="Date" id="dob" required>
         <br>
         <br>
 
         <label for="password">Password*</label>
-        <input type="password" name="Password" id="password">
+        <input type="password" name="Password" id="password" required>
         <br>
         <br>
 
         <label for="portfolio">Portfolio*</label>
-        <input type="url" name="Portfolio" id="portfolio">
+        <input type="url" name="Portfolio" id="portfolio" required>
         <br>
         <br>
 
-        <input type="submit" name="Submit" id="submit">
+<!--         <input type="submit" name="Submit" id="submit"> -->
+		<button type="submit">Submit</button>
     </form>
     <script type="text/javascript" src="./script.js">
 </script>
